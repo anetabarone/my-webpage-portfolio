@@ -12,8 +12,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap"
       rel="stylesheet"
     />
     <script
@@ -26,7 +28,7 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <p>Portfolio von Aneta Barone</p>
+        <h1>Portfolio von Aneta Barone</h1>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/aneta-barone/" target="_blank"
@@ -46,14 +48,14 @@
         </ul>
       </nav>
       <main>
-        <div class="row">
-          <div class="col-9">
+        <div class="row hero">
+          <div class="col-8">
             <p>
-              Aneta Barone ist eine angehende Frontend-Entwicklerin in
+              Aneta Barone ist eine angehende Frontend-Entwicklerin <br />in
               Berlin/Brandenburg.
             </p>
           </div>
-          <div class="col-3">
+          <div class="col-4">
             <img
               src="images/anetabarone.png"
               class="img-fluid"
@@ -61,65 +63,102 @@
             />
           </div>
         </div>
-        <div>
-          <p>Meine bisherige Projekte:</p>
-          <ul>
-            <li>
-              <a
-                href="https://weather-app-aneta-barone.netlify.app/"
-                target="_blank"
-                >Wetter App</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://react-weather-app-barone.netlify.app/"
-                target="_blank"
-                >Wetter App (React)</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://dictionary-app-barone.netlify.app/"
-                target="_blank"
-                >Wörterbuch der englischen Sprache</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://world-clock-aneta-barone.netlify.app/"
-                target="_blank"
-                >Weltuhr</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://lisbon-travel-website-barone.netlify.app/"
-                target="_blank"
-                >Webseite über Lissabon</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div>
-          <p>Tools: VS Code, GitHub</p>
+        <div class="aboutMe">
           <p>
-            Technologien: React.js, Bootstrap, Responsiveness,
-            Suchmaschinenoptimierung + Erfahrungen mit Joomla - wird aber nicht
-            in meinen eigenen Projekten benutzt
+            Nach mehreren Jahren als Sozialpädagogin und Englischdozentin
+            entdeckte ich meine Leidenschaft fürs Programmieren. Seit Oktober
+            2022 arbeite ich daran, eine Frontend-Entwicklerin zu werden. Meine
+            Informatikgrundlagen aus dem Bachelorstudium und wunderbare
+            SheCodes-Kursen gaben mir eine tolle Grundlage. Ich arbeite ständig
+            an meinen Fähigkeiten und absolvierte auch schon mein erstes
+            Praktikum. Ich freue mich auf meine neue berufliche Perspektive!
           </p>
+        </div>
+        <div class="row projects">
+          <div class="col-4">
+            <h2>Meine bisherige Projekte:</h2>
+          </div>
+          <div class="col-6">
+            <ul class="primary">
+              <li>
+                <a
+                  href="https://weather-app-aneta-barone.netlify.app/"
+                  target="_blank"
+                  >Wetter App</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://react-weather-app-barone.netlify.app/"
+                  target="_blank"
+                  >Wetter App (React)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dictionary-app-barone.netlify.app/"
+                  target="_blank"
+                  >Wörterbuch der englischen Sprache</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://world-clock-aneta-barone.netlify.app/"
+                  target="_blank"
+                  >Weltuhr</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://lisbon-travel-website-barone.netlify.app/"
+                  target="_blank"
+                  >Webseite über Lissabon</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row tools">
+          <div class="col-4">
+            <h2>Tools:</h2>
+          </div>
+          <div class="col-6">
+            <ul class="primary">
+              <li>VS Code</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row technologies">
+          <div class="col-4">
+            <h2>Technologien:</h2>
+          </div>
+          <div class="col-6">
+            <ul class="primary">
+              <li>React.js</li>
+              <li>Bootstrap</li>
+              <li>Responsiveness</li>
+              <li>Suchmaschinenoptimierung</li>
+              <li>
+                + Erfahrungen mit Joomla - wird aber<br />nicht in meinen
+                eigenen Projekten benutzt
+              </li>
+            </ul>
+          </div>
         </div>
       </main>
       <footer>
-        <p>Mein Lebenslauf</p>
-        <p>anetabarone@yahoo.com</p>
+        <h3><a href="/" target="_blank">Mein Lebenslauf →</a></h3>
+        <h3>
+          <a href="mailto:anetabarone@yahoo.com">anetabarone@yahoo.com →</a>
+        </h3>
         <p class="text-center">
           ✌️ This website was coded by Aneta Barone, and is
           <a
             href="https://github.com/anetabarone/my-webpage-portfolio"
             target="_blank"
           >
-            open-sourced
+            open-sourced.
           </a>
         </p>
       </footer>
