@@ -76,6 +76,8 @@ footer p {
   max-width: 300px;
 }
 
+
+
 .aboutMe p {
   padding-top: 300px;
   font-weight: 300;
@@ -83,7 +85,7 @@ footer p {
   max-width: 1110px;
 }
 
-.aboutMe a {
+.aboutMe a, a:hover {
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: solid 1px;
