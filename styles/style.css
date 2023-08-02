@@ -32,10 +32,6 @@ h3 a {
   border-bottom: solid 1px;
 }
 
-p {
-  /*font-weight: 600;*/
-}
-
 nav {
   padding: 30px 0;
 }
@@ -61,8 +57,6 @@ footer p {
   font-weight: 200;
 }
 
-
-
 .hero {
   padding-top: 210px;
 }
@@ -76,8 +70,6 @@ footer p {
   max-width: 300px;
 }
 
-
-
 .aboutMe p {
   padding-top: 300px;
   font-weight: 300;
@@ -85,7 +77,8 @@ footer p {
   max-width: 1110px;
 }
 
-.aboutMe a, a:hover {
+.aboutMe a,
+a:hover {
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: solid 1px;
