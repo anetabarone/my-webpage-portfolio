@@ -32,22 +32,6 @@ h3 a {
   border-bottom: solid 1px;
 }
 
-nav {
-  padding: 30px 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  font-size: 22px;
-  margin-left: 20px;
-}
-
-nav a:hover,
-nav li a {
-  color: #1f1516;
-}
-
 footer {
   margin-top: 50px;
 }
@@ -56,6 +40,23 @@ footer p {
   margin-top: 70px;
   font-weight: 200;
 }
+
+.socialMediaIcons {
+  text-align: center;
+ }
+ 
+ .socialMediaIcons li {
+   display: inline;
+   list-style: none;
+   font-size: 22px;
+  /* margin-left: 20px;*/
+ }
+ 
+ .socialMediaIcons a:hover,
+ .socialMediaIcons li a {
+   color: #1f1516;
+ }
+ 
 
 .hero {
   padding-top: 210px;
@@ -70,6 +71,8 @@ footer p {
   max-width: 300px;
 }
 
+
+
 .aboutMe p {
   padding-top: 300px;
   font-weight: 300;
@@ -77,8 +80,7 @@ footer p {
   max-width: 1110px;
 }
 
-.aboutMe a,
-a:hover {
+.aboutMe a, a:hover {
   color: var(--primary-color);
   text-decoration: none;
   border-bottom: solid 1px;
@@ -110,3 +112,42 @@ a:hover {
 .gitHubLink {
   color: black;
 }
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 a {
+    font-size: 30px;
+  }
+
+  h2 {
+  
+    font-size: 20px;
+  }
+  
+  .socialMediaIcons {
+    text-align: left;
+    padding-left: 10px;
+   }
+   .hero {
+    padding-top: 100px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+   .aboutMe p {
+    padding-top: 100px;
+    font-weight: 300;
+    font-size: 20px;
+      }
+      .projects {
+        margin-top: 100px;
+      }
+   }
