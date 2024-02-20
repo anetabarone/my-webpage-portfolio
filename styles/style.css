@@ -31,6 +31,7 @@ h3 a {
   text-decoration: none;
   border-bottom: solid 1px;
 }
+
 nav {
   padding: 30px 0;
 }
@@ -54,22 +55,6 @@ footer {
 footer p {
   margin-top: 70px;
   font-weight: 200;
-}
-
-.socialMediaIcons {
-  text-align: center;
-}
-
-.socialMediaIcons li {
-  display: inline;
-  list-style: none;
-  font-size: 22px;
-  /* margin-left: 20px;*/
-}
-
-.socialMediaIcons a:hover,
-.socialMediaIcons li a {
-  color: #1f1516;
 }
 
 .hero {
@@ -131,35 +116,3 @@ a:hover {
     font-size: 18px;
     text-align: center;
   }
-
-  h3 a {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .socialMediaIcons {
-    text-align: left;
-    padding-left: 10px;
-  }
-  .hero {
-    padding-top: 100px;
-  }
-
-  .hero p {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 80px;
-  }
-
-  .aboutMe p {
-    padding-top: 100px;
-    font-weight: 300;
-    font-size: 20px;
-  }
-  .projects {
-    margin-top: 100px;
-  }
-}
